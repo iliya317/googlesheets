@@ -207,8 +207,9 @@ def get_date_copy_service(day):
     return df
 
 
-print('write date in format YYYY mm d')
-year, month, date = [int(input()) for i in range(3)]
-days = dt.date(year, month, date).strftime("%d.%m.%Y")
-change_values(get_date_copy_service(days))
+#print('write date in format YYYY mm d')
+#year, month, date = [int(input()) for i in range(3)]
+#days = dt.date(year, month, date).strftime("%d.%m.%Y")
+#change_values(get_date_copy_service(days))
 
+print(os.path.abspath())
